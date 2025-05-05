@@ -23,7 +23,7 @@ Hence, the LBM is dedicated to solve only one, yet very complicated, equation wh
 
 The first term is dedicated to solve the transport equation with a pression pulse as initial condition. For this simple case, the analytical solution is known, that is perfect for benchmarking. In this simple set-up, you do not need to use high order methods involving viscosity or heat transfer, first order are enough. 
 
-![Initial conditions](./img/TP1/CI.PNG =100x100) ![Propagation](./img/TP1/propag.PNG)  ![Theoretical result](./img/TP1/theo.PNG)
+<img src="./img/TP1/CI.png" width="200" height="100"> ![Propagation](./img/TP1/propag.PNG)  ![Theoretical result](./img/TP1/theo.PNG)
 
 ## TP2: Moving cavity
 This labs starts the real deal. Consider a box-like cavity, filled with a fluid, and move at uniform speed the top side.As a result, the whole fluid inside the box, by viscous effects, will start moving similarly to a vortex, around a center point. For the amount of code written, the result is quite convincing.
