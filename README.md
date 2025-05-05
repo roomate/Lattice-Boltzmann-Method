@@ -25,7 +25,7 @@ The first term is dedicated to solve the transport equation with a pression puls
 
 <img src="./img/TP1/CI.PNG" width="350" height="200"> <img src="./img/TP1/propag.PNG" width="350" height="200">   <img src="./img/TP1/theo.PNG" width="350" height="200"> 
 ## TP2: Moving cavity
-This labs starts the real deal. Consider a box-like cavity, filled with a fluid, and move at uniform speed the top side.As a result, the whole fluid inside the box, by viscous effects, will start moving similarly to a vortex, around a center point. For the amount of code written, the result is quite convincing. At least for small Reynolds, you observe that ffor high Reynolds, the simulation does not yields relevant results anymore. This behaviour was expected, because the low order approximation is only valid for low Reynold number. The movement is however laminar for small Reynolds number, the velocity line are well defined and locally parallel.
+This labs starts the real deal. Consider a box-like cavity, filled with a fluid, and move at uniform speed the top side.As a result, the whole fluid inside the box, by viscous effects, will start moving similarly to a vortex, around a center point. For the amount of code written, the result is quite convincing. At least for small Reynolds, you observe that ffor high Reynolds, the simulation does not yields relevant results anymore. This behaviour was expected, because the low order approximation is only valid for low Reynold number. The movement is however laminar for small Reynolds number, since the velocity lines are well defined and locally parallels.
 
 ![For low Reynolds numbers](./img/TP2/1st.PNG)  ![Middle Reynolds numbers](./img/TP2/2nd.PNG)   ![High Reynolds numbers](./img/TP2/3rd.PNG)
 
