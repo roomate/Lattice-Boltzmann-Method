@@ -18,3 +18,21 @@ actually solving them directly!
 
 Hence, the LBM is dedicated to solve only one, yet very complicated, equation whose unknown is the distribution function, a multi-variate function of
 2D+1 variables, where D is the space dimension. You can see the Wikipedia page for more information.
+
+## TP1: 
+
+The first term is dedicated to solve the transport equation with a pression pulse as initial condition. For this simple case, the analytical solution is known, that is perfect for benchmarking. In this simple set-up, you do not need to use high order methods involving viscosity or heat transfer, first order are enough. 
+
+![Initial conditions](./img/TP1/CI.PNG) ![Propagation](./img/tp1/propag.PNG)  ![Theoretical result](./img/tp1/theo.PNG)
+
+## TP2: 
+This labs starts the real deal. Consider a box-like cavity, filled with a fluid, and move at uniform speed the top side.As a result, the whole fluid inside the box, by viscous effects, will start moving similarly to a vortex, around a center point. For the amount of code written, the result is quite convincing.
+
+![For low Reynolds numbers](./img/TP2/1st.PNG)  ![Middle Reynolds numbers](./img/TP2/2nd.PNG)   ![High Reynolds numbers](./img/TP2/3rd.PNG)
+
+
+## TP3:
+
+
+
+## TP4:
