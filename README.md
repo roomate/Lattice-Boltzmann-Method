@@ -33,7 +33,7 @@ This lab starts the real deal. Consider a box-like cavity, filled with a fluid, 
 ## Practical session N°3:
 In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street), a very famous phenomenon in fluid dynamics. It is a repeating pattern of swirling vortices involving viscosity and requiring a Reynolds number above a certain threshold, typically around 90.
 
-![Setup](./img/TP3/setup.PNG) ![Drag versus time](./img/TP3/drag.PNG)
+![Setup](./img/TP3/setup.PNG) ![Drag versus time](./img/TP3/drag_coef.PNG)
 
 
 ## TP4:
