@@ -35,5 +35,9 @@ In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipe
 
 ![Setup](./img/TP3/setup.PNG) ![Drag versus time](./img/TP3/drag_coeff.PNG)  ![Streamline](./img/TP3/streamline.PNG)  ![Vorticity](./img/TP3/vorticity.PNG)
 
+This last plot displays the vorticity, estimated by finite difference, for the different Reynolds number. The vorticity seems to outline the position of the vortices, like one could have expected.
 
 ## TP4:
+A new collision method is studied. Indeed, taking into account collisions is necessary to model viscosity, but several methods are possibles. This lab explores two of them, only one actually work. You can see below the results are quite similar.
+
+ ![Drag versus time](./img/TP4/drag_coeff.PNG)  ![Streamline](./img/TP4/streamline.PNG)  ![Vorticity](./img/TP4/vorticity.PNG)
