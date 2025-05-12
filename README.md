@@ -32,14 +32,14 @@ This lab starts the real deal. Consider a box-like cavity, filled with a fluid, 
 ![For low Reynolds numbers](./img/TP2/1st.PNG)  ![Middle Reynolds numbers](./img/TP2/2nd.PNG)   ![High Reynolds numbers](./img/TP2/3rd.PNG)
 
 
-## Practical session N°3:
+## Practical session N°3: Kalman Vortex street
 In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street), a very famous phenomenon in fluid dynamics. It is a repeating pattern of swirling vortices involving viscosity and requiring a Reynolds number above a certain threshold, typically around 90.
 
 ![Setup](./img/TP3/setup.PNG) ![Drag versus time](./img/TP3/drag_coeff.PNG)  ![Streamline](./img/TP3/streamline.PNG)  ![Vorticity](./img/TP3/vorticity.PNG)
 
 This last plot displays the vorticity, estimated by finite difference, for the different Reynolds number. The vorticity seems to outline the position of the vortices, like one could have expected.
 
-## Practical Session 4:
+## Practical Session 4: Advanced Collisions Methods
 A collision method, different to the ones employed in `Practical Session 2` and `Practical Session 3` is implemented and studied. Taking into account collisions between particles is necessary to model viscosity, but several approaches are possibles. This lab explores two of them, I managed to make work only one of them though. The objective was to reproduce, for each of them, the results of one of the two previous practical sessions. Below are the results for `Practical Session 3`.
 
  ![Drag versus time](./img/TP4/drag_coeff.PNG)  ![Streamline](./img/TP4/streamline.PNG)  ![Vorticity](./img/TP4/vorticity.PNG)
