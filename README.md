@@ -3,23 +3,17 @@
 The Lattice Boltzmann Method (or LBM for short) is a numerical method dedicated to the simulation of fluids. 
 This method became quite popular during the last decades for at least two reasons.
 
-It is important to keep in mind that Vanilla CFD methods are usually quite challenging to fully grasp, as they are very complex and
-computationally demanding. They implicitely rely on state-of-the-art numerical analysis and software engineering as it entails
-to solve coupled kinetics and thermodynamics Partial Differential Equations (PDEs) in a given domain. Standard sophisticated numerical schemes with
-this objective are Hybrid High Order (HHO) or Compatible Discrete Operator (CDO) schemes for example.
+It is important to keep in mind that Vanilla CFD methods are usually quite challenging to fully grasp, as they are very complex and computationally demanding. They implicitely rely on state-of-the-art numerical analysis and software engineering as it entails to solve coupled kinetics and thermodynamics Partial Differential Equations (PDEs) in a given domain. Standard sophisticated numerical schemes with this objective are Hybrid High Order (HHO) or Compatible Discrete Operator (CDO) schemes for example.
 
-In this context, the LBM is advantageous by its simplicity. It is not computationally very expensive, easily parallelizable, and the resolution algorithm is quite simple, 
-only a few steps. While most methods try to solve Navier-Stokes equations (recall this terminology also incorporates continuity and thermodynamics equations), the LBM focus on only one single equation, derived
-from Statistical Physics: the **Boltzmann equation**. You might know that an infinite cascad of equations known as the BBGKY hierarchy arises from it by the moment methods.
+In this context, the LBM is advantageous by its simplicity. It is not computationally very expensive, easily parallelizable, and the resolution algorithm is quite simple, only a few steps. While most methods try to solve Navier-Stokes equations (recall this terminology also incorporates continuity and thermodynamics equations), the LBM focus on only one single equation, derived from Statistical Physics: the **Boltzmann equation**. You might know that an infinite cascad of equations known as the BBGKY hierarchy arises from it by the moment methods.
 In particular, the key point is that one can recover Navier-Stokes equations via the Chapman-Enskog development. The main hypothesis is that the dimensionless Knudsen number is very small, that is, 
 the fluid is dense enough to be considered as a continuum medium.
-Consequently, solving the Boltzmann equation guarantee you to encapsulate all the physics phenomenons described by Navier-Stokes equations, without
-actually solving them directly! 
+Consequently, solving the Boltzmann equation guarantee you to encapsulate all the physics phenomenons described by Navier-Stokes equations, without actually solving them directly! 
 
 Hence, the LBM is dedicated to solve only one, yet very complicated, equation whose unknown is the distribution function, a multi-variate function of
 2D+1 variables, where D is the space dimension. You can see the Wikipedia page for more information.
 
-What was fascinating about this course is that no complex numerical methods or abstract/black-box libraries are necessary to have very satisfactory results. Anyone can type with a few lines of code its own CFD simulation, and that's what makes it all the more interesting.
+What was fascinating about this course is that no complex numerical methods or abstract/black-box libraries are necessary to have very satisfactory results on complex phenomenon. Anyone can type with a few lines of code its own CFD simulation, and that's what makes it all the more interesting.
 
 ## Practical session N°1: Pulse of pressure 
 
@@ -33,7 +27,7 @@ This lab starts the real deal. Consider a box-like cavity, filled with a fluid, 
 
 
 ## Practical session N°3: Kalman Vortex street
-In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street), a very famous phenomenon in fluid dynamics. It is a repeating pattern of swirling vortices involving viscosity and requiring a Reynolds number above a certain threshold, typically around 90.
+In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street), a very famous phenomenon in fluid dynamics. It is a repeating pattern of swirling vortices involving viscosity and requiring a Reynolds number above a certain threshold, located around 90.
 
 ![Setup](./img/TP3/setup.PNG) ![Drag versus time](./img/TP3/drag_coeff.PNG)  ![Streamline](./img/TP3/streamline.PNG)  ![Vorticity](./img/TP3/vorticity.PNG)
 
