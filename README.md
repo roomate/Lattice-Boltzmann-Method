@@ -19,6 +19,8 @@ actually solving them directly!
 Hence, the LBM is dedicated to solve only one, yet very complicated, equation whose unknown is the distribution function, a multi-variate function of
 2D+1 variables, where D is the space dimension. You can see the Wikipedia page for more information.
 
+What was fascinating about this course is that no complex numerical methods or abstract/black-box libraries are necessary to have very satisfactory results. Anyone can type with a few lines of code its own CFD simulation, and that's what makes it all the more interesting.
+
 ## Practical session N°1: Pulse of pressure 
 
 The first term is dedicated to solve the transport equation with a pression pulse as initial condition. For this simple case, the analytical solution is known, that is perfect for benchmarking. In this simple set-up, you do not need to use high order methods involving viscosity or heat transfer, first order are enough. On the order, from left to right, you can find respectively the initial condition for the pulse of pressure, the numerical propagation of the latter, and finally the analytical solution.
@@ -37,7 +39,7 @@ In this lab, one tries to reproduce the [Kalman vortex street](https://en.wikipe
 
 This last plot displays the vorticity, estimated by finite difference, for the different Reynolds number. The vorticity seems to outline the position of the vortices, like one could have expected.
 
-## TP4:
-A new collision method is studied. Indeed, taking into account collisions is necessary to model viscosity, but several methods are possibles. This lab explores two of them, only one actually work. You can see below the results are quite similar.
+## Practical Session 4:
+A collision method, different to the ones employed in `Practical Session 2` and `Practical Session 3` is implemented and studied. Taking into account collisions between particles is necessary to model viscosity, but several approaches are possibles. This lab explores two of them, I managed to make work only one of them though. The objective was to reproduce, for each of them, the results of one of the two previous practical sessions. Below are the results for `Practical Session 3`.
 
  ![Drag versus time](./img/TP4/drag_coeff.PNG)  ![Streamline](./img/TP4/streamline.PNG)  ![Vorticity](./img/TP4/vorticity.PNG)
